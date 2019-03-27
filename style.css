@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-body {font-family: 'Roboto Mono', monospace;
+body {
+  font-family: 'Roboto Mono', monospace;
   padding-top: 3.5rem;
+}
+.jumbotron{
+  background:
+  linear-gradient(to bottom, rgba(200, 200, 200, 0.3) 0%,
+  rgba(200,200,200,1) 100%),
+  url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1200px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
 }
